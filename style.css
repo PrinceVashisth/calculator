@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+ background: rgb(90, 224, 224);   
+}
+.container h3 {
+    margin-top: 3%;
+    font-size: xx-large;
+    color: rgba(91, 102, 245, 0.712);
+}
+
+.container {
+    margin: 3% 5%;
+    /* display: ; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    /* background-color: hotpink; */
+}
+
+.answer {
+    background-color: rgb(74, 116, 145);
+    color: rgb(106, 33, 121);
+    font-size: 30px;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 1rem;
+    color: rgba(7, 16, 26, 0.966);
+    background: rgb(14, 124, 226);
+    background-image:linear-gradient(to right,rgb(236, 100, 100) 0%,rgb(74, 204, 143) 50% ,rgb(129, 44, 44) 100%);
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 3px 5px rgb(89, 180, 138);
+}
+
+#add,
+#minus,
+#divide,
+#multiply {
+    padding: 4rem 1rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    
+}
+
+button:hover {
+    box-shadow: 2px 6px rgb(162, 113, 212);
+}
